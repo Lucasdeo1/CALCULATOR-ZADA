@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href = " https://fonts.cdnfonts.com/css/digital-numbers " rel = "stylesheet">
+                
+</head>
+<body>
+    <h1 >calculadora</h1>
+    <div class="tudodentro">
+        <div class="calculadora">
+            <div id="conteudo">0</div>
+            <div class="botoes">
+                <button id="ponto" onclick="append('.')">.</button><button id="divi" onclick="append('/')">÷</button><button id="mult" onclick="append('*')">&times;</button><button onclick="limpar()">AC</button><button onclick="append('7')">7</button><button onclick="append('8')">8</button><button onclick="append('9')">9</button><button id="add" onclick="append('+')">+</button><button onclick="append('4')">4</button><button onclick="append('5')">5</button><button onclick="append('6')">6</button><button id="sub" onclick="append('-')">-</button><button onclick="append('1')">1</button><button onclick="append('2')">2</button><button onclick="append('3')">3</button><button id="resposta" onclick="calcular()">=</button><button onclick="append('0')">0</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a href="https://github.com/Lucasdeo1" target="_blank" rel="noopener noreferrer"><img  src="./github-mark.png" alt="meugithub" srcset="">My profile in git hub</a>
+    
+    
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
